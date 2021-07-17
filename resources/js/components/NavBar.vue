@@ -52,7 +52,7 @@ a{
     font-size: 15px;
 }
 a:hover{
-    color: grey;
+    color: black;
 }
 @media only screen and (min-width: 1024px) {
     .nav-item
