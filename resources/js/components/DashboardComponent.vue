@@ -67,6 +67,10 @@
     font-size: 11px;
     font-weight: bold;
 }
+.content-container
+{
+    padding:0px 2rem;
+}
 @media only screen and (min-width: 1024px) {
     .content-container
     {
