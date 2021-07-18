@@ -1,8 +1,10 @@
 <template>
 <div>
     <nav-bar></nav-bar>
-    <div class="col-md-12 content-container">
+    <div class=" title-container w-100">
         <h2 class="title-text">DISTRICT MANAGER</h2>
+    </div>
+    <div class="col-md-12 content-container">
         <p style="font-weight: bold" class="m-0">Filter By Age</p>
         <select style="width:10rem" v-model="condition">
             <option>All</option>
@@ -56,9 +58,16 @@
 }
 </script>
 <style scoped>
+.title-container{
+    height: 5rem;
+    background-color:rgba(250,249,243,1);
+    margin-bottom: 4rem;
+}
 .title-text{
-    text-align: center;
-    margin: 30px;
+    display: flex;
+    height:100%;
+    justify-content:center;
+    align-items:center;
     font-weight: bold;
 }
 .convert-button{
